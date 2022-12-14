@@ -4,7 +4,7 @@ def inputNum(num):
     xyz = ["W", "Z", "Y", "X"]
     a = []
     for i in range(num):
-        a.append(input(f"Enter value {xyz[i]}: "))
+        a.append(int(input(f"Enter value {xyz[i]}: ")))
     print (a)
     return a
 
@@ -22,9 +22,3 @@ if checkPredicate(statement) == True:
 else:
     print(f"The statement is false")
 
-# x = [0,0,1,1]
-# result = (x[0] and x[1]) or (not x[2]) or (not x[3] == (not x[0]))
-# print  (result)
-
-# result = (0 and 0) or not 0 or (not 0 == (not 0))
-# print  (result)
